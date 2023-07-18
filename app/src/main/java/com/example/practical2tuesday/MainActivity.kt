@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateNickname(view : View){
         val editText = findViewById<EditText>(R.id.nickname_edit)
         val doneButton = findViewById<Button>(R.id.done_button)
-
+        //comment
         editText.visibility = View.VISIBLE
         doneButton.visibility = View.VISIBLE
         view.visibility = View.GONE
